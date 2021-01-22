@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6F0AB88B25ABF18F00ADCDFC /* SHWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F0AB88A25ABF18F00ADCDFC /* SHWebViewController.m */; };
+		6F0E292925B52161009840B6 /* SFWebViewVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F0E292825B52161009840B6 /* SFWebViewVC.m */; };
+		6F0E292D25B521C9009840B6 /* UIImage+FixOrientation.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F0E292C25B521C9009840B6 /* UIImage+FixOrientation.m */; };
+		6F0E293125B53058009840B6 /* test.html in Resources */ = {isa = PBXBuildFile; fileRef = 6F0E293025B53057009840B6 /* test.html */; };
 		6F7CDDD125A82E0C004FCB33 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F7CDDD025A82E0C004FCB33 /* AppDelegate.m */; };
 		6F7CDDD425A82E0C004FCB33 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F7CDDD325A82E0C004FCB33 /* SceneDelegate.m */; };
 		6F7CDDD725A82E0C004FCB33 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F7CDDD625A82E0C004FCB33 /* ViewController.m */; };
@@ -19,11 +23,22 @@
 		6F7CDE0725A85230004FCB33 /* SHNetManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F7CDE0625A85230004FCB33 /* SHNetManager.m */; };
 		6F7CDE0B25A85253004FCB33 /* SHNetRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F7CDE0A25A85253004FCB33 /* SHNetRequest.m */; };
 		6F7CDE0F25A85265004FCB33 /* SHNetResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F7CDE0E25A85265004FCB33 /* SHNetResult.m */; };
+		6FE6577B25B1A347004A019A /* SFViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FE6577925B1A347004A019A /* SFViewController.m */; };
+		6FE6577C25B1A347004A019A /* SFViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6FE6577A25B1A347004A019A /* SFViewController.xib */; };
+		6FE6577F25B1A457004A019A /* richTextEditor.html in Resources */ = {isa = PBXBuildFile; fileRef = 6FE6577E25B1A456004A019A /* richTextEditor.html */; };
 		D5A25A4358A4369018E376BE /* Pods_AFnetApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C43BE71D4B96890D76A4F45 /* Pods_AFnetApp.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		6C43BE71D4B96890D76A4F45 /* Pods_AFnetApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AFnetApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F0AB88925ABF18F00ADCDFC /* SHWebViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SHWebViewController.h; sourceTree = "<group>"; };
+		6F0AB88A25ABF18F00ADCDFC /* SHWebViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SHWebViewController.m; sourceTree = "<group>"; };
+		6F0E292725B52161009840B6 /* SFWebViewVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SFWebViewVC.h; sourceTree = "<group>"; };
+		6F0E292825B52161009840B6 /* SFWebViewVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SFWebViewVC.m; sourceTree = "<group>"; };
+		6F0E292B25B521C9009840B6 /* UIImage+FixOrientation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+FixOrientation.h"; sourceTree = "<group>"; };
+		6F0E292C25B521C9009840B6 /* UIImage+FixOrientation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+FixOrientation.m"; sourceTree = "<group>"; };
+		6F0E293025B53057009840B6 /* test.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = test.html; sourceTree = "<group>"; };
+		6F0E299A25B6EDB4009840B6 /* AFnetApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AFnetApp.entitlements; sourceTree = "<group>"; };
 		6F7CDDCC25A82E0C004FCB33 /* AFnetApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AFnetApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6F7CDDCF25A82E0C004FCB33 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		6F7CDDD025A82E0C004FCB33 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -46,6 +61,10 @@
 		6F7CDE0A25A85253004FCB33 /* SHNetRequest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SHNetRequest.m; sourceTree = "<group>"; };
 		6F7CDE0D25A85265004FCB33 /* SHNetResult.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SHNetResult.h; sourceTree = "<group>"; };
 		6F7CDE0E25A85265004FCB33 /* SHNetResult.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SHNetResult.m; sourceTree = "<group>"; };
+		6FE6577825B1A347004A019A /* SFViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SFViewController.h; sourceTree = "<group>"; };
+		6FE6577925B1A347004A019A /* SFViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SFViewController.m; sourceTree = "<group>"; };
+		6FE6577A25B1A347004A019A /* SFViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SFViewController.xib; sourceTree = "<group>"; };
+		6FE6577E25B1A456004A019A /* richTextEditor.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = richTextEditor.html; path = NetWorking/richTextEditor.html; sourceTree = "<group>"; };
 		C038D74C294E8A5A3B07A629 /* Pods-AFnetApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AFnetApp.release.xcconfig"; path = "Target Support Files/Pods-AFnetApp/Pods-AFnetApp.release.xcconfig"; sourceTree = "<group>"; };
 		C98533AF4003DD15DA89EF2E /* Pods-AFnetApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AFnetApp.debug.xcconfig"; path = "Target Support Files/Pods-AFnetApp/Pods-AFnetApp.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -79,6 +98,15 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		6F0AB88825ABF15E00ADCDFC /* WKWebView */ = {
+			isa = PBXGroup;
+			children = (
+				6F0AB88925ABF18F00ADCDFC /* SHWebViewController.h */,
+				6F0AB88A25ABF18F00ADCDFC /* SHWebViewController.m */,
+			);
+			path = WKWebView;
+			sourceTree = "<group>";
+		};
 		6F7CDDC325A82E0C004FCB33 = {
 			isa = PBXGroup;
 			children = (
@@ -100,6 +128,8 @@
 		6F7CDDCE25A82E0C004FCB33 /* AFnetApp */ = {
 			isa = PBXGroup;
 			children = (
+				6F0E299A25B6EDB4009840B6 /* AFnetApp.entitlements */,
+				6F0AB88825ABF15E00ADCDFC /* WKWebView */,
 				6F7CDDFE25A84FB1004FCB33 /* NetWorkMulty */,
 				6F7CDDF325A84835004FCB33 /* SHBaseData */,
 				6F7CDDED25A82EA5004FCB33 /* NetWorking */,
@@ -109,6 +139,15 @@
 				6F7CDDD325A82E0C004FCB33 /* SceneDelegate.m */,
 				6F7CDDD525A82E0C004FCB33 /* ViewController.h */,
 				6F7CDDD625A82E0C004FCB33 /* ViewController.m */,
+				6F0E292725B52161009840B6 /* SFWebViewVC.h */,
+				6F0E293025B53057009840B6 /* test.html */,
+				6F0E292825B52161009840B6 /* SFWebViewVC.m */,
+				6F0E292B25B521C9009840B6 /* UIImage+FixOrientation.h */,
+				6F0E292C25B521C9009840B6 /* UIImage+FixOrientation.m */,
+				6FE6577825B1A347004A019A /* SFViewController.h */,
+				6FE6577925B1A347004A019A /* SFViewController.m */,
+				6FE6577A25B1A347004A019A /* SFViewController.xib */,
+				6FE6577E25B1A456004A019A /* richTextEditor.html */,
 				6F7CDDD825A82E0C004FCB33 /* Main.storyboard */,
 				6F7CDDDB25A82E10004FCB33 /* Assets.xcassets */,
 				6F7CDDDD25A82E10004FCB33 /* LaunchScreen.storyboard */,
@@ -216,8 +255,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				6F7CDDDF25A82E10004FCB33 /* LaunchScreen.storyboard in Resources */,
+				6FE6577C25B1A347004A019A /* SFViewController.xib in Resources */,
+				6F0E293125B53058009840B6 /* test.html in Resources */,
 				6F7CDDDC25A82E10004FCB33 /* Assets.xcassets in Resources */,
 				6F7CDDDA25A82E0C004FCB33 /* Main.storyboard in Resources */,
+				6FE6577F25B1A457004A019A /* richTextEditor.html in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,9 +317,13 @@
 				6F7CDDD125A82E0C004FCB33 /* AppDelegate.m in Sources */,
 				6F7CDDE225A82E10004FCB33 /* main.m in Sources */,
 				6F7CDE0B25A85253004FCB33 /* SHNetRequest.m in Sources */,
+				6F0E292D25B521C9009840B6 /* UIImage+FixOrientation.m in Sources */,
 				6F7CDDD425A82E0C004FCB33 /* SceneDelegate.m in Sources */,
 				6F7CDE0725A85230004FCB33 /* SHNetManager.m in Sources */,
+				6F0E292925B52161009840B6 /* SFWebViewVC.m in Sources */,
 				6F7CDDF025A82ED0004FCB33 /* SHNetWorkTool.m in Sources */,
+				6F0AB88B25ABF18F00ADCDFC /* SHWebViewController.m in Sources */,
+				6FE6577B25B1A347004A019A /* SFViewController.m in Sources */,
 				6F7CDE0F25A85265004FCB33 /* SHNetResult.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -422,14 +468,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = AFnetApp/AFnetApp.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = MR566AMPNB;
+				DEVELOPMENT_TEAM = XLSBUFMXY9;
 				INFOPLIST_FILE = AFnetApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = PlatoJobs.AFnetApp;
+				PRODUCT_BUNDLE_IDENTIFIER = xxxxduuu.AFnetApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -441,14 +488,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = AFnetApp/AFnetApp.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = MR566AMPNB;
+				DEVELOPMENT_TEAM = XLSBUFMXY9;
 				INFOPLIST_FILE = AFnetApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = PlatoJobs.AFnetApp;
+				PRODUCT_BUNDLE_IDENTIFIER = xxxxduuu.AFnetApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

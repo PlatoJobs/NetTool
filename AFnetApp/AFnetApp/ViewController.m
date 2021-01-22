@@ -9,6 +9,8 @@
 #import "SHNetWorkTool.h"
 #import "SHUserModel.h"
 #import "SHNetManager.h"
+#import "SFViewController.h"
+#import "SFWebViewVC.h"
 @interface ViewController ()<SHNetRequestDelegate>
 @property(nonatomic,strong)SHUserModel*userModel;
 @end
@@ -23,9 +25,30 @@
 
 -(void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{
     
-    [self N_request];
+  //  [self N_request];
+   
+    [self webviewTest];
+  //  [self wkwebviewTest];
     
 }
+
+
+#pragma mark==webviewtest
+
+-(void)webviewTest{
+    
+    [self.navigationController pushViewController:[SFWebViewVC new] animated:YES];
+    
+}
+
+#pragma mark=wkwebview
+
+-(void)wkwebviewTest{
+    
+    
+    [self.navigationController pushViewController:[SFViewController new] animated:YES];
+}
+
 
 -(void)N_request{
     
